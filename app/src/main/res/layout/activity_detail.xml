@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.DetailActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <ImageView
+        android:id="@+id/detail_image"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:transitionName="imagetrans"/>
+
+    <TextView
+        android:id="@+id/detail_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:transitionName="namatrans"
+        android:text="@string/nama"/>
+
+    <TextView
+        android:id="@+id/detail_desc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20sp"
+        android:transitionName="desctrans"
+        android:text="@string/deskripsi"/>
+
+</LinearLayout>

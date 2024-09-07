@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/itm"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:cardElevation="20dp">
+
+        <ImageView
+            android:id="@+id/story_image"
+            android:layout_width="match_parent"
+            android:layout_height="180dp" />
+        <TextView
+            android:id="@+id/story_nama"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="180dp"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:textStyle="bold"
+            android:fontFamily="monospace"
+            android:text="@string/nama" />
+        <TextView
+            android:id="@+id/text_story"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginTop="215dp"
+            android:textSize="20sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="monospace"
+            android:text="@string/story" />
+
+</androidx.cardview.widget.CardView>
