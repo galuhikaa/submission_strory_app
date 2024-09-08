@@ -21,4 +21,3 @@ object ApiUserConfig{
             return retrofit.create(ApiService::class.java)
         }
 }
-

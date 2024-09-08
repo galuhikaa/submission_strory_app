@@ -70,5 +70,4 @@ class MapsViewModel(private val repository: UserRepository, val context: Context
             }
         }
     }
-
 }
